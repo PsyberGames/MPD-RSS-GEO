@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- O'Callaghan, James s1920031 -->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lv"
+        android:checkable="false"
+        android:checked="true"
+        android:title="List View"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nesw"
+        android:checkable="false"
+        android:title="Most N,E,S,W" />
+    <item
+        android:id="@+id/dns"
+        android:checkable="false"
+        android:title="Deepest / Shallowest" />
+    <item
+        android:id="@+id/large_mag"
+        android:title="Largest Magnitude" />
+</menu>

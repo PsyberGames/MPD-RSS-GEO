@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">O\'Callaghan_James_s1920031</string>
+    <string name="title_activity_eq_gps_map">Map</string>
+    <string name="Map_View">Map View</string>
+    <string name="Click_here">Click Here To Place Map Marker.</string>
+    <string name="b_from">From</string>
+    <string name="b_To">To</string>
+    <string name="b_setDate">Set Date</string>
+</resources>

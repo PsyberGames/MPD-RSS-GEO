@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- O'Callaghan, James s1920031 -->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:orientation="vertical"
+    tools:context=".activity_inspect">
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#35F300" />
+
+    <TableLayout
+        android:id="@+id/s_tl_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TableRow
+
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/dt_Title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+
+                android:background="#51397A"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+            <TextView
+                android:id="@+id/dnt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#3B167C"
+
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/loc_Title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="#51397A"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+            <TextView
+                android:id="@+id/loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3B167C"
+
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/lnl_Title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="#51397A"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+            <TextView
+                android:id="@+id/latnlng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3B167C"
+
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/d_Title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="#51397A"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+            <TextView
+                android:id="@+id/dpth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3B167C"
+
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/m_Title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="#51397A"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+            <TextView
+                android:id="@+id/mag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3B167C"
+
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#F3EBEB"></TextView>
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:layout_width="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="#51397A"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/Map_View"
+                android:textColor="#F3EBEB"></TextView>
+
+            <TextView
+                android:layout_width="311dp"
+                android:layout_height="50dp"
+
+                android:background="#3B167C"
+
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/Click_here"
+                android:textColor="#F3EBEB"></TextView>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#35F300" />
+
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        tools:context=".eq_gps_map" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
